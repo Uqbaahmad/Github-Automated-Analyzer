@@ -2,11 +2,10 @@ import streamlit as st
 from fetch_file import fetch_github_repositories
 
 
-def get_user_input():
-    # Display the title and input box for GitHub user URL in the web interface.
+def user_input():
     st.title('Github Automated Analysis')
-    github_url = st.text_input("Please Enter The GitHub User's URL")
-    return github_url
+    url = st.text_input("Please Enter The GitHub User's URL")
+    return url
 
 def main():
     st.title("Welcome to the GitHub Repository Analyzer")   
@@ -21,7 +20,7 @@ def main():
     st.write("Get started now. Happy exploring!")
 
 
-    github_url = get_user_input()
+    github_url = user_input()
 
     if github_url:
         most_complex_repository_name, most_complex_repository_link = fetch_github_repositories(github_url)
