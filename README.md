@@ -39,7 +39,11 @@ Run the application using the following command:
 ```
 streamlit run app.py
 ```
-In the web interface, enter the GitHub user's URL and click on "Enter".<br/>
+In the web interface, enter the GitHub user's profile URL and click on "Enter".<br/>
 The tool will process the information and display the most technically challenging repository from the user's profile.
 
-Click on the link to open the streamlit app - [https://dabtd84prb75zvhadlb3tg.streamlit.app/](https://dabtd84prb75zvhadlb3tg.streamlit.app/)
+Click on the link to open the streamlit app - [https://dabtd84prb75zvhadlb3tg.streamlit.app/](https://dabtd84prb75zvhadlb3tg.streamlit.app/) <br/>
+
+Sample link - "https://github.com/username"
+
+
