@@ -44,6 +44,6 @@ The tool will process the information and display the most technically challengi
 
 Click on the link to open the streamlit app - [https://dabtd84prb75zvhadlb3tg.streamlit.app/](https://dabtd84prb75zvhadlb3tg.streamlit.app/) <br/>
 
-Sample link - "https://github.com/username"
+Sample link - "https://github.com/{username}"
 
 
