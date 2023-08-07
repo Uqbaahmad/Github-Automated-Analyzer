@@ -25,14 +25,6 @@ Install the required dependencies by running the following command:
 pip install -r requirements.txt
 ```
 
-### Usage
-Run the application using the following command:
-```
-streamlit run app.py
-```
-In the web interface, enter the GitHub user's URL and click on "Enter".<br/>
-The tool will process the information and display the most technically challenging repository from the user's profile.
-
 ## Dependencies
 The tool uses the following major dependencies:
 
@@ -41,3 +33,17 @@ The tool uses the following major dependencies:
 * PyGitHub
 * GPT (OpenAI GPT-3 or later version)
 * LangChain
+
+### Usage
+Run the application using the following command:
+```
+streamlit run app.py
+```
+In the web interface, enter the GitHub user's profile URL and click on "Enter".<br/>
+The tool will process the information and display the most technically challenging repository from the user's profile.
+
+Click on the link to open the streamlit app - [https://b4xhkta9r75tcqf5xtbgr6.streamlit.app/](https://b4xhkta9r75tcqf5xtbgr6.streamlit.app/) <br/>
+
+Sample link - "https://github.com/{username}"
+
+
