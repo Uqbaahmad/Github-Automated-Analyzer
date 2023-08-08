@@ -4,7 +4,6 @@ import radon.metrics
 import re
 from github import Github
 
-# from setup import calculate_complexity_with_gpt
 import os
 from secret_key.api_key import OPENAI_SECRET_KEY
 from langchain.llms import OpenAI
@@ -23,7 +22,7 @@ def calculate_complexity_with_gpt(code):
     return chain.run(code)
 
 
-# def calculate_complexity(code, filepath=None):
+# def complexity(code, filepath=None):
 #     try:
 #         complexity = radon.metrics.cc_visit(code)
 #         return complexity
